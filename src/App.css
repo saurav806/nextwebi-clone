@@ -1,4 +1,45 @@
-*{
-    margin: 0px;
-    padding: 0px;
+.bg{
+  background-image: url(https://www.nextwebi.com/assets/img/new/web-developement-new2.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info{
+  width:50%;
+  padding: 6rem;
+  
+}
+
+.info h1{
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(35, 66, 111);
+}
+.info h2{
+  font-size: 2.5rem;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  color: rgb(35, 66, 111);
+}
+
+.info h4{
+  padding: .6rem 0;
+  font-size: 1rem;
+  font-weight: 100;
+  font-family: Arial;
+}
+
+.btn1{
+  font-size: 1rem; 
+  background-color: rgb(105, 105, 205); 
+  color: white; 
+  border: none;
+  margin: 1rem;
+  padding: .5rem 1rem;
+  border-radius: 5px;
+}
+
+.info a{
+  color: rgb(60, 60, 154);
 }

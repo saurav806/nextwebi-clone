@@ -1,0 +1,26 @@
+.navlink-container{
+    height: 5rem;
+}
+
+.navlink{
+  position: relative;
+  left: 10%;
+  align-items: center;
+  font-size: large;
+  font-weight: 500;
+}
+
+.custom-btn{
+  margin: 1rem;
+  width: 150px;
+}
+
+.custom-navlink{
+  margin: .3rem;
+}
+
+.custom-navlink :hover{
+  border: 2px solid black;
+  color: red-500;
+  box-shadow: 0 1px 2px rgb(222, 221, 221);
+}
