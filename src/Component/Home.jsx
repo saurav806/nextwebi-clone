@@ -1,10 +1,11 @@
-import React from 'react'
-import './Home.css';
+import React from "react";
+import "./Home.css";
+import Learn from './HomeComponent/Learn'
 
 function Home() {
   return (
     <>
-        <div className="bg bg-body-tertiary">
+      <div className="bg bg-body-tertiary">
         <div className="info">
           <h2>IT Solutions for </h2>
           <h1>Digital Transformation</h1>
@@ -21,9 +22,9 @@ function Home() {
           <a href="#home">View Our Work</a>
         </div>
       </div>
-      
+      < Learn/>
     </>
-  )
+  );
 }
 
-export default Home
+export default Home;
