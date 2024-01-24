@@ -1,6 +1,9 @@
 import React from "react";
 import "./Home.css";
 import Learn from './HomeComponent/Learn'
+import Technology from "./HomeComponent/Technology";
+import Techpartner from "./HomeComponent/Techpartner";
+import Prosolution from "./HomeComponent/Prosolution";
 
 function Home() {
   return (
@@ -23,6 +26,9 @@ function Home() {
         </div>
       </div>
       < Learn/>
+      < Techpartner/>
+      < Prosolution/>
+      < Technology/>
     </>
   );
 }

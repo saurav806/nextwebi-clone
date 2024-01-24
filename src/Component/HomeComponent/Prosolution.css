@@ -1,0 +1,66 @@
+.probg{
+    background-image: url(https://www.nextwebi.com/assets/img/bg-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.stacks{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 50px;
+
+}
+
+.stacks .stack{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex: 0 1 calc(25% - 20px);
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px 0 rgb(17 121 239 / 15%);
+    border: 1px solid #ecf1fb;
+    background: #fff;
+    padding: 5px;
+    min-height: 100px;
+    min-width: 250px;
+    font-size: 20px;
+    
+}
+
+.stacks .stack:hover{
+    /* transform: scale(1.05);  */
+    box-shadow: 0 0px 25px 0 rgb(17 121 239 / 15%);
+}
+
+.explore{
+    padding: 50px 0px 30px;
+    color: #0c3c5f;
+    margin: auto;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+
+.explore a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .stacks .stack {
+        flex-basis: calc(40% - 20px);
+    }
+}
+
+@media (max-width: 576px) {
+    .stacks .stack {
+        flex-basis: calc(100% - 20px);
+    }
+}
