@@ -1,5 +1,5 @@
 .probg{
-    background-image: url(https://www.nextwebi.com/assets/img/bg-1.jpg);
+    background-image: url("./image/bg-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

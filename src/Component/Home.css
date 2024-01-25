@@ -1,5 +1,5 @@
 .bg{
-    background-image: url(https://www.nextwebi.com/assets/img/new/web-developement-new2.webp);
+    background-image: url("./image/bg.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

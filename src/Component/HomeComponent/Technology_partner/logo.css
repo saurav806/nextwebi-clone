@@ -1,0 +1,40 @@
+.head_inner {
+   
+    display: flex;
+    padding: 10px 80px ;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    
+    
+   
+/*    
+    @media (max-width: 720px) {
+        display: flex;
+       
+    } */
+    
+
+}
+.head_div{
+    padding-left: 15%;
+    padding-right: 15%;
+    @media (max-width: 720px) {
+        padding-left: 0;
+    padding-right: 0;
+       
+    } 
+
+}
+.image_opti{
+    filter: grayscale(100);
+}
+.image_opti:hover{
+    filter:none;
+    background: #ebe7e7;
+}
+.head_div p{
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: capitalize; 
+}

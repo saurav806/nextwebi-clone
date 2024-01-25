@@ -1,9 +1,10 @@
 import React from "react";
 import "./Home.css";
-import Learn from './HomeComponent/Learn'
-import Technology from "./HomeComponent/Technology";
-import Techpartner from "./HomeComponent/Techpartner";
-import Prosolution from "./HomeComponent/Prosolution";
+import Learn from './HomeComponent/Learn/Learn';
+import Techpartner from "./HomeComponent/Techpartner/Techpartner";
+import Prosolution from "./HomeComponent/Prosolution/Prosolution";
+import Technology from "./HomeComponent/Technology_partner/Technology";
+import LeftTabs from "./HomeComponent/Tab/LeftTabs";
 
 function Home() {
   return (
@@ -29,6 +30,7 @@ function Home() {
       < Techpartner/>
       < Prosolution/>
       < Technology/>
+      < LeftTabs/>
     </>
   );
 }

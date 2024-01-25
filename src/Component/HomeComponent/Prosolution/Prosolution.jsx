@@ -1,5 +1,14 @@
 import React from 'react'
 import './Prosolution.css';
+import ecommerce from './image/shopping-cart.png';
+import edtech from './image/graduation-cap.png';
+import toursandtravels from './image/world.png';
+import onlinefood from './image/order-food.png';
+import jobportal from './image/job-portal.png';
+import hrmanager from './image/hr-manager.png';
+import cms from './image/cms.png';
+import airline from './image/airplane-mode.png';
+
 
 function Prosolution() {
   return (
@@ -10,7 +19,7 @@ function Prosolution() {
       <div className="stacks">
         <div className="stack " >
             <div className="img-sec">
-                <img src="https://www.nextwebi.com/assets/img/home/icons/shopping-cart.png" alt="ecom" width="60px"/>
+                <img src={ecommerce} alt="ecom" width="60px"/>
             </div>
             <div className="text-sec">
                 <p>eCommerce</p>
@@ -18,7 +27,7 @@ function Prosolution() {
         </div>
         <div className="stack " >
             <div className="img-sec">
-                <img src="https://www.nextwebi.com/assets/img/home/icons/graduation-cap.png" alt="ecom" width="60px"/>
+                <img src={edtech} alt="ecom" width="60px"/>
             </div>
             <div className="text-sec">
                 <p>EdTech</p>
@@ -26,7 +35,7 @@ function Prosolution() {
         </div>
         <div className="stack " >
             <div className="img-sec">
-                <img src="https://www.nextwebi.com/assets/img/home/icons/world.png" alt="ecom" width="60px"/>
+                <img src={toursandtravels} alt="ecom" width="60px"/>
             </div>
             <div className="text-sec">
                 <p>Tours & travels</p>
@@ -34,7 +43,7 @@ function Prosolution() {
         </div>
         <div className="stack " >
             <div className="img-sec">
-                <img src="https://www.nextwebi.com/assets/img/home/icons/order-food.png" alt="ecom" width="60px"/>
+                <img src={onlinefood} alt="ecom" width="60px"/>
             </div>
             <div className="text-sec">
                 <p>Online food ordering</p>
@@ -42,7 +51,7 @@ function Prosolution() {
         </div>
         <div className="stack " >
             <div className="img-sec">
-                <img src="https://www.nextwebi.com/assets/img/home/icons/job-portal.png" alt="ecom" width="60px"/>
+                <img src={jobportal} alt="ecom" width="60px"/>
             </div>
             <div className="text-sec">
                 <p>Job portal</p>
@@ -50,7 +59,7 @@ function Prosolution() {
         </div>
         <div className="stack " >
             <div className="img-sec">
-                <img src="https://www.nextwebi.com/assets/img/home/icons/hr-manager.png" alt="ecom" width="60px"/>
+                <img src={hrmanager} alt="ecom" width="60px"/>
             </div>
             <div className="text-sec">
                 <p>HR management</p>
@@ -58,7 +67,7 @@ function Prosolution() {
         </div>
         <div className="stack " >
             <div className="img-sec">
-                <img src="https://www.nextwebi.com/assets/img/home/icons/cms.png" alt="ecom" width="60px"/>
+                <img src={cms} alt="ecom" width="60px"/>
             </div>
             <div className="text-sec">
                 <p>CMS and workflow</p>
@@ -66,7 +75,7 @@ function Prosolution() {
         </div>
         <div className="stack " >
             <div className="img-sec">
-                <img src="https://www.nextwebi.com/assets/img/home/icons/airplane-mode.png" alt="ecom" width="60px"/>
+                <img src={airline} alt="ecom" width="60px"/>
             </div>
             <div className="text-sec">
                 <p>Airline booking</p>

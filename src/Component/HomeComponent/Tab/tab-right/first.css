@@ -1,0 +1,36 @@
+.first{
+    width: 720px;
+    /* height: 500px; */
+    box-shadow: 0 2px 37px 0 rgb(0 0 0 / 10%);
+    padding: 20px;
+
+   
+    @media (max-width: 767px) {
+        width: auto;
+        height: auto;
+        padding: 10px;
+    }
+      @media (max-width: 400px) {
+        padding-left: 0;
+      }
+   
+}
+
+#title
+{
+
+color: #032D60;
+border: none;
+font-size: 26px;
+background: none;
+}
+.text-con{  word-wrap: break-word;}
+
+#ul_under  {
+    padding-bottom: 50px;
+    
+}
+#card_first{
+  background: #fafafa;
+  border: none;
+}
