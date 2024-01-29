@@ -5,6 +5,7 @@ import Techpartner from "./HomeComponent/Techpartner/Techpartner";
 import Prosolution from "./HomeComponent/Prosolution/Prosolution";
 import Technology from "./HomeComponent/Technology_partner/Technology";
 import LeftTabs from "./HomeComponent/Tab/LeftTabs";
+import Whynext from "./HomeComponent/Whynext/Whynext";
 
 function Home() {
   return (
@@ -31,6 +32,7 @@ function Home() {
       < Prosolution/>
       < Technology/>
       < LeftTabs/>
+      < Whynext/>
     </>
   );
 }
