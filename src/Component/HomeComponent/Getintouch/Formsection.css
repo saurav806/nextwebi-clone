@@ -1,0 +1,80 @@
+.form-section{
+    background-color: #fff;
+    padding: 50px;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgb(199, 194, 194);
+}
+
+.form-section .head{
+    margin-bottom: 30px;
+}
+
+.form-section .head h3{
+    font-size: 40px;
+    color: #172b41;
+    font-weight: 400;
+}
+
+.form-section h6{
+    font-size: 20px;
+    color: #000;
+    font-weight: 500;
+}
+.form-section p{
+    font-size: 18px;
+    color: #000;
+    padding-bottom: 20px;
+}
+
+.form-section .head span{
+    font-weight: 700;
+}
+.form-container {
+    max-width: 600px; /* Adjust as needed */
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-control {
+    margin-bottom: 15px;
+    height: 50px;
+  }
+
+  .input-group .form-control{
+    height: 130px;
+  }
+
+  .input-text-group .input-button{
+    /* height: max-content; */
+    border: dotted;
+    width: 15%;
+    height: fit-content;
+  }
+
+  .form-submit-button{
+    font-size: 20px;
+    width: 150px;
+    font-weight: 500;
+  }
+
+  .form-submit-button:hover {
+    background-color: #354557; /* Change to desired hover color */
+  }
+  
+
+  @media (max-width: 992px) {
+    .form-section{
+        width: 100%;
+    }
+    .input-group .form-control {
+      height: 200px; /* Adjust the height as needed */
+    }
+  
+    .input-text-group .input-button {
+      width: 100%; /* Make the button take up the entire width */
+      margin-top: 10px; /* Add some spacing between the input and the button */
+    }
+  }
