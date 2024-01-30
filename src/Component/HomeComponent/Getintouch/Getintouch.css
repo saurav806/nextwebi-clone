@@ -16,7 +16,12 @@
     font-size: 40px;
     width: max-content;
     font-weight: 400;
+    @media (max-width: 992px) {
+        font-size: 150%;
+    }    
 }
+
+
 
 .infos span{
     font-weight: 700;

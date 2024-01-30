@@ -8,6 +8,11 @@
   .info{
     width:50%;
     padding: 6rem;
+    @media(max-width: 992px){
+      width: 100%;
+      background-color: #fff;
+      padding: 2rem;
+    }
     
   }
   

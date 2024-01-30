@@ -24,3 +24,31 @@
   color: red-500;
   box-shadow: 0 1px 2px rgb(222, 221, 221);
 }
+
+
+/* 
+.bg-body-tertiary.blur {
+  filter: blur(5px); Adjust the blur amount as needed */
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+      transition: none;
+  }
+
+  .navbar-collapse.show {
+      background-color: rgb(255, 255, 255);
+      max-width: 300px;
+      margin-top: 20px;
+      padding-right: 40px;
+      box-shadow: 0 1px 10px 10px rgb(222, 221, 221);
+  }
+
+  .navlink{
+    position: relative;
+    left: 10%;
+    align-items: center;
+    font-size: large;
+    font-weight: 500;
+    color: red;
+  }
+}

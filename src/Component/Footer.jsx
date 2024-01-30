@@ -140,10 +140,10 @@ function Footer() {
         </ul>
       </div>
       <div className="footer-bottom">
-        <div>
+        <div className="copyright">
           <p>&copy; 2024 Nextwebi. All rights reserved</p>
         </div>
-        <div>
+        <div className="policy">
           <a href="#services"> Privacy Policy</a>|
           <a href="#services"> Terms & Conditions</a>|
           <a href="#services"> Refund & Cancellation Policy</a>
