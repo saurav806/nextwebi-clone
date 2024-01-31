@@ -1,10 +1,17 @@
 import React from 'react'
+import Getintouch from './ServiceComponent/Getintouch/Getintouch';
+import Technology from './ServiceComponent/Technology_partner/Technology';
+import Learn from './ServiceComponent/Learn/Learn';
+import Intropage from './ServiceComponent/Intropage/Intropage';
 
 const Services = () => {
   return (
-    <div>
-      This is Services
-    </div>
+    <>
+      < Intropage/>
+      < Learn/>
+      < Technology/>
+      < Getintouch/> 
+    </>
   )
 }
 

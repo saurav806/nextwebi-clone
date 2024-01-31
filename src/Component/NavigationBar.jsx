@@ -16,10 +16,11 @@ import Company from "./Company";
 import Contactus from "./Contactus";
 import Portfolio from "./Portfolio";
 import Technologies from "./Technologies";
+import Home from "./Home";
 
 const NavigationBar = () => {
   return (
-    <Router>
+    <>
       <div className="App">
         <Navbar expand="lg" className="bg-body-tertiary ">
           <Container className="navlink-container">
@@ -27,8 +28,8 @@ const NavigationBar = () => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto navlink">
-                <Nav.Link as={Link} to={"./solutions"} className='custom-navlink'>Solutions</Nav.Link>
                 <Nav.Link as={Link} to={"./services"} className='custom-navlink'>Services</Nav.Link>
+                <Nav.Link as={Link} to={"./solutions"} className='custom-navlink'>Solutions</Nav.Link>
                 <Nav.Link as={Link} to={"./portfolio"} className='custom-navlink'>Portfolio</Nav.Link>
                 <Nav.Link as={Link} to={"./technologies"} className='custom-navlink'>Technologies</Nav.Link>
                 <Nav.Link as={Link} to={"./company"} className='custom-navlink'>Company</Nav.Link>
@@ -42,7 +43,7 @@ const NavigationBar = () => {
           </Container>
         </Navbar>
       </div>
-      <div>
+      {/* <div>
         <Routes>
           <Route path='/solutions' element={ <Solutions/> } />
           <Route path='/services' element={ <Services/> } />
@@ -52,8 +53,8 @@ const NavigationBar = () => {
           <Route path='/career' element={ <Career/> } />
           <Route path='/contact' element={ <Contactus/> } />
         </Routes>
-        </div>
-    </Router>
+        </div> */}
+    </>
   )
 }
 

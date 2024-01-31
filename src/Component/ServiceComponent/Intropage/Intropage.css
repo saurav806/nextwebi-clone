@@ -1,0 +1,66 @@
+.intro{
+    padding: 20px;
+    background: url('./software-development-services.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro .container{
+    color: white;
+    padding: 60px;
+}
+
+.intro .container h3{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.intro .container .connect a {
+    color: white;
+    font-weight: 500;
+}
+
+.intro .container .connect a:hover {
+    text-decoration: none;
+    color: rgb(121, 118, 188);
+}
+
+.intro .breadcrumb {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.intro .desc {
+    padding-bottom: 20px;
+}
+
+.intro .desc p{
+    font-size: 1.2rem;
+}
+
+
+.breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: rgb(245, 245, 245);
+  }
+
+.breadcrumb a{
+    color: white;
+    text-decoration: none;
+}
+
+.breadcrumb .breadcrumb-item.active {
+    color: rgb(255 255 255 / 75%);
+}
+
+
+.intro .data{
+    color: rgb(250, 245, 245);
+    display: flex;
+    justify-content: center;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 30px;
+}
