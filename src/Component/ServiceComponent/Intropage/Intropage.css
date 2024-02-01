@@ -59,8 +59,19 @@
 .intro .data{
     color: rgb(250, 245, 245);
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     border: 2px solid white;
     padding: 20px;
     margin: 30px;
+    position: relative;
+    bottom: 20px;
 }
+
+.intro .data .exp{
+    text-align: center;
+    border-right: 1px solid white;
+    padding: 20px;
+    
+}
+
+

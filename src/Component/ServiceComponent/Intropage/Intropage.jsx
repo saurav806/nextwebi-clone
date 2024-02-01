@@ -29,12 +29,12 @@ function Intropage() {
                 <h5>Years of extensive experience</h5>
             </div>
             <div className="exp">
-                <h2>8+</h2>
-                <h5>Years of extensive experience</h5>
+                <h2>1600+</h2>
+                <h5>Projects delivered across the globe</h5>
             </div>
             <div className="exp">
-                <h2>8+</h2>
-                <h5>Years of extensive experience</h5>
+                <h2>1500+</h2>
+                <h5>Client relationships</h5>
             </div>
         </div>
     </div>
