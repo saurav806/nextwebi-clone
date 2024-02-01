@@ -1,7 +1,5 @@
 import React from 'react'
 import './Learn.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import webapp from './image/web-application-development.png';
 import digital from './image/digital-transformation.png';
 import ecomm from './image/ecommerce-development.png';

@@ -4,19 +4,9 @@ import Navbar from "react-bootstrap/Navbar";
 import "./NavigationBar.css";
 
 import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link,
+  Link
 } from "react-router-dom";
-import Solutions from "./Solutions";
-import Services from "./Services";
-import Career from "./Career";
-import Company from "./Company";
-import Contactus from "./Contactus";
-import Portfolio from "./Portfolio";
-import Technologies from "./Technologies";
-import Home from "./Home";
+
 
 const NavigationBar = () => {
   return (

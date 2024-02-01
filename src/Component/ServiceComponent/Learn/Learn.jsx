@@ -1,7 +1,5 @@
 import React from 'react'
 import './Learn.css';
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
 import webapp from './image/web-application-development.png';
 import digital from './image/digital-transformation.png';
 import ecomm from './image/ecommerce-development.png';
@@ -50,6 +48,60 @@ function Learn() {
                 <img src={maintain} alt="Alternate Text" width="50px"/>
                 <h3 class="sub-head">Maintenance & support</h3>
                 <p className='desc'>Get support & maintenance service to reinvent your business landscape and transform with constant innovation and improvements</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">Digital marketing</h3>
+                <p className='desc'>Drive higher conversions with comprehensive digital marketing strategies</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">UI/UX design</h3>
+                <p className='desc'>Customer-centric, interactive, and elegant UI/ UX design with Nextwebi for higher business engagement.</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">Resource outsourcing</h3>
+                <p className='desc'>Enabling agile resource outsourcing solutions with dedicated IT resource augmentation services</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">SharePoint customization</h3>
+                <p className='desc'>Customize your organization's assets with SharePoint solutions to protect and share critical business information.</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">Corporate video production</h3>
+                <p className='desc'>Rendering high-quality videos to elevate your brand presence and portray the business effectively</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">RFID solutions</h3>
+                <p className='desc'>Cost-effective and real-time RFID tracking solutions to manage and organize your business process</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">Branding & strategy</h3>
+                <p className='desc'>Exponentially grow and digitally transform your business with Nextwebi’s remarkable branding and strategy services.</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">Maintenance & support</h3>
+                <p className='desc'>Get support & maintenance service to reinvent your business landscape and transform with constant innovation and improvements</p>
+                <a href="#home" className="learn-more">Learn More &gt;</a>
+            </div>
+            <div className="card">
+                <img src={maintain} alt="Alternate Text" width="50px"/>
+                <h3 class="sub-head">Security solutions</h3>
+                <p className='desc'>Leverage the advanced security tools security services are designed to provide you agile, secure, and robust solutions and protect your applications.</p>
                 <a href="#home" className="learn-more">Learn More &gt;</a>
             </div>
         </div>

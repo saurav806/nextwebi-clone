@@ -1,0 +1,90 @@
+.success{
+    padding: 50px 0px;
+    color: #0c3c5f;
+    text-align: center;
+}
+
+
+.success h3{
+    font-size: 40px;
+}
+
+.success span{
+    font-weight: 700;
+}
+
+.success p{
+    padding: 50px 60px 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.success .cards{
+    padding-bottom: 50px;
+}
+
+.success .cards img{
+    padding: 20px;
+    @media (max-width:992px){
+            flex-basis: calc(100%);
+    }
+    @media (max-width:540px){
+            flex-basis: calc(100%);
+    }
+}
+
+.success .cards .card {
+    flex-direction: row;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: calc(35% - 10px);
+    margin: 15px;
+    padding: 25px;
+    border: none;
+    box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.189);
+    border-radius: 5px;
+    transition: transform 175ms ease-in, opacity 175ms ease-in;
+    position: relative;
+    font-size: 15px;
+    text-align: left;
+    height: 20%;
+
+    @media (max-width:992px){
+            flex-basis: calc(100%);
+    }
+    @media (max-width:540px){
+            flex-basis: calc(100%);
+            font-size: 10px;
+            padding: 0px;
+    }
+}
+
+.success .cards .tag{
+    background-color: rgb(222, 219, 219);
+    width: fit-content;
+    padding: 5px;
+    height: 15%;
+    border-radius: 50px;
+}
+
+.success .cards a{
+    color: black;
+    font-weight: 350;
+}
+
+.success .cards a:hover{
+    color: rgb(47, 14, 235);
+    font-weight: 350;
+    text-decoration: none;
+}
+
+.success h6{
+    font-size: 12px;
+}
+
+
+.success > a{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 25px;
+}

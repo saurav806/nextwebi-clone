@@ -1,0 +1,40 @@
+.holder{
+    padding: 50px;
+
+}
+
+.container1{
+    background-color: rgba(239, 239, 243, 0.799);
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.container1 h3{
+    font-weight: 630;
+}
+
+.holder ul{
+    column-count: 3;
+    list-style: none;
+    padding-left: 0;
+
+    @media (max-width:768px){
+        column-count: 1;
+    }
+}
+
+.holder ul a{
+    text-decoration: none;
+    color: rgb(77, 80, 232);
+    font-weight: 400;
+}
+.holder ul li{
+    padding-top: 10px;
+}
+
+.holder ul li::before {
+    content: '\25A0'; 
+    font-size: .7em;
+    margin-right: 8px;
+    color: rgb(60, 62, 156);
+}

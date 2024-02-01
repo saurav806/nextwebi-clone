@@ -9,7 +9,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
 } from "react-router-dom";
 import Solutions from "./Component/Solutions";
 import Services from "./Component/Services";
@@ -23,11 +22,6 @@ import Technologies from "./Component/Technologies";
 
 function App() {
   return (
-    // <>
-    //   <NavigationBar />
-    //   < Home/>
-    //   < Footer/>
-    // </>
     <Router>
       <div>
         <NavigationBar />
