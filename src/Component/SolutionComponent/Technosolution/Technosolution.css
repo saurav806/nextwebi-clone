@@ -1,0 +1,19 @@
+.container .slider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.container .slider .slides{
+    border: 1px solid rgb(248, 248, 248);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 4px 0px rgb(145, 171, 180);
+
+}
+
+.container .slider li{
+    list-style: none;
+
+}

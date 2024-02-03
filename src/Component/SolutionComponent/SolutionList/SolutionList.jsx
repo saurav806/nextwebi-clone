@@ -7,7 +7,7 @@ function SolutionList() {
     <div className="solution">
       <div className="containers">
         <div className="image">
-          <img src={Travel} alt="image" width="450px" />
+          <img src={Travel} alt="image" />
         </div>
         <div className="details">
           <div className="head">

@@ -4,21 +4,35 @@
     justify-content: center;
     align-items: center;
     margin: 20px;
+
+    @media (max-width:500px){
+        padding: 0px;
+        flex-direction: column;
+    }
 }
 
-.solution .image{
+.solution img{
     padding: 10px;
+    position: relative;
     margin-right: 20px;
-    width: 40%;
+    width: 450px;
+
+    @media (max-width:992px){
+        width: 300px;
+        align-items: center;
+    }
 }
 
 .solution .details{
     width: 40%;
+    @media (max-width:992px){
+        width: fit-content;
+    }
 }
 
 .containers .details h3{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 100%;
     padding-bottom: 10px;
 }
 
