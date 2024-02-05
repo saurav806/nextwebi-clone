@@ -1,9 +1,10 @@
 import React from 'react'
+import Intropage from './CompanyComponent/AboutUs/Intropage/Intropage'
 
 const Company = () => {
   return (
     <div>
-      This is Company
+      < Intropage/>
     </div>
   )
 }

@@ -1,0 +1,77 @@
+.portintro{
+    padding: 20px;
+    background: url('./portfolio-banner.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portintro .container{
+    color: rgb(49, 42, 42);
+    padding: 60px;
+    background-color: #fff;
+    height: max-content;
+    width: 60%;
+}
+
+.portintro .container h3{
+    font-size: 3rem;
+    padding-bottom: 20px;
+}
+
+.portintro .container .connect a {
+    color: white;
+    font-weight: 500;
+}
+
+.portintro .container .connect a:hover {
+    text-decoration: none;
+    color: rgb(121, 118, 188);
+}
+
+.port .breadcrumb {
+    display: flex;
+    background: rgba(238, 235, 235, 0.804);
+    padding: 20px;
+    padding-left: 80px;
+}
+
+.portintro .desc p{
+    font-size: 1rem;
+}
+
+
+.port .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+    content: ">";
+    color: rgb(135, 2, 2);
+  }
+
+.port .breadcrumb a{
+    color: rgb(33, 29, 29);
+    text-decoration: none;
+}
+
+.port .breadcrumb .breadcrumb-item.active {
+    color: rgba(161, 152, 152, 0.75);
+}
+
+
+/* .portintro .data{
+    color: rgb(250, 245, 245);
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    bottom: 20px;
+} */
+
+/* .portintro .data .exp{
+    text-align: center;
+    border-right: 1px solid white;
+    padding: 20px;
+    
+} */
+
+

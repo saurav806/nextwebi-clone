@@ -1,0 +1,77 @@
+.portcards{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    @media (max-width:992px){
+        padding: 20px;
+    }
+}
+
+.port .portcards .portcard{
+    width: 20%;
+    height: max-content;
+    overflow: hidden;
+    box-shadow: 0 2px 20px 0 rgb(17 121 239 / 20%);
+    margin: 15px;
+    border: none;
+    border-radius: 10px;
+    @media (max-width:992px){
+        width: 40%;
+    }
+
+    @media (max-width:550px){
+        width: 100%;
+    }
+}
+
+.portcards img{
+    display: block;
+    width: 100%;
+    transition: transform 0.7s ease;
+}
+
+.portcards img:hover{
+    transform: scale(1.2);
+    transition: opacity 1s, transform 1s;
+}
+
+.portcards .details{
+    padding: 12px;
+}
+
+.portcards .tag {
+    display: flex;
+}
+
+.portcards .tag p{
+    max-width: fit-content;
+    font-size: 7px;
+    font-weight: 500;
+    color: blue;
+    padding: 5px;
+    margin: 3px;
+    background-color: rgb(229, 238, 244);
+    border-radius: 10px;
+}
+
+
+.portcards h4{
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(51, 58, 109);
+}
+
+.portcards .desc{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.portcards a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 10px;
+    color: rgb(15, 47, 84);
+}
+

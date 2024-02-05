@@ -1,0 +1,33 @@
+.aboutbg{
+  background-image: url("./2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info{
+  width:50%;
+  padding: 6rem;
+  @media(max-width: 992px){
+    width: 100%;
+    background-color: #1a183e;
+    padding: 2rem;
+  }
+  
+}
+
+.info h3{
+  padding: .6rem 0;
+  font-size: 3rem;
+  font-weight: 100;
+  font-family: Arial;
+  color: #fff;
+}
+
+.aboutbg .info .head span{
+  font-weight: 600;
+}
+
+.info p{
+  color: #fff;
+}
