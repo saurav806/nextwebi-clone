@@ -1,9 +1,10 @@
 import React from 'react';
 import './Intropage.css';
+import Breadcrumb from "react-bootstrap/Breadcrumb";
 
 function Intropage() {
   return (
-    <>
+    <div className='company'>
       <div className="aboutbg bg-body-tertiary">
         <div className="info">
           <div className="head">
@@ -17,7 +18,11 @@ function Intropage() {
           </p>
         </div>
       </div>
-    </>
+      <Breadcrumb>
+                <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+                <Breadcrumb.Item active>About Us</Breadcrumb.Item>
+      </Breadcrumb>
+    </div>
   )
 }
 

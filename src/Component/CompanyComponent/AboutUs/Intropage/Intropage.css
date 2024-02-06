@@ -31,3 +31,29 @@
 .info p{
   color: #fff;
 }
+
+.company .breadcrumb {
+  display: flex;
+  background: rgba(238, 235, 235, 0.804);
+  padding: 20px;
+  padding-left: 80px;
+}
+
+.portintro .desc p{
+  font-size: 1rem;
+}
+
+
+.company .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  color: rgb(135, 2, 2);
+}
+
+.company .breadcrumb a{
+  color: rgb(33, 29, 29);
+  text-decoration: none;
+}
+
+.company .breadcrumb .breadcrumb-item.active {
+  color: rgba(161, 152, 152, 0.75);
+}
