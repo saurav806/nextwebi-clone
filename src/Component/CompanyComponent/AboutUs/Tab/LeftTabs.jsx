@@ -16,7 +16,7 @@ const LeftTabs = () => {
   return (
     <div id="head_div">
       <div className="container">
-        <h1>Software development <span>services</span></h1>
+        <h1>Our <span>services</span></h1>
         <p id="p_text">
           Unlock the technical possibilities to assist your business growth with
           Nextwebi's insight-driven and result-oriented IT Services
